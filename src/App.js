@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-import ExpenseItem from './components/ExpenseItem';
-
-function App() {
-  return (
-    <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem />
-=======
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
   const expenses = [
@@ -37,7 +28,6 @@ function App() {
       <div>
         <Expenses items={expenses} />
       </div>
->>>>>>> af0fdf72fb9ff4f294110a2ff058b7019e12e856
     </div>
   );
 }
